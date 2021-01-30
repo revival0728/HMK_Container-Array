@@ -71,3 +71,7 @@ class Array {
 };
 
 #endif
+
+int main() {
+	;
+}
