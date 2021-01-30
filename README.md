@@ -2,8 +2,8 @@
 a Safe array for C++
 
 ## Array::Array()
-(1) None  
-(2) fill of value `x`  
+(1) fill with value `0`  
+(2) fill with value `x`  
 (3) initializer_list  
 ## Array::~Array()
 None
