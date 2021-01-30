@@ -16,10 +16,12 @@ return const begin()
 return const end()
 ### Array::operator[]
 if the argument is out of range  
-return -32767  
+return $-32767$  
+  
 if the argument is greater or equal than 0  
-return data\[argument]  
+return $data[argument]$  
+  
 if the argument is less than 0  
-return data\[Length-argument]  
+return $data[Length-argument]$  
 ### Array::size()
 return the size of Array
