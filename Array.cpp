@@ -75,12 +75,3 @@ class Array {
 };
 
 #endif
-
-#include <algorithm>
-using namespace std;
-
-int main() {
-	Array<int, 5> arr;
-	cin >> arr;
-	cout << arr << endl;
-}
