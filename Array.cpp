@@ -17,7 +17,7 @@ class Array {
 
 	Array(unsigned int _length = Length+1) : length(_length) {
 		data = new T[length];
-		data[Length] = -1;
+		data[Length] = -32767;
 	}
 
 	class iterator : public std::iterator<std::input_iterator_tag, T> {
