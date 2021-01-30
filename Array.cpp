@@ -15,8 +15,9 @@ class Array {
 
 	public:
 
-	Array(unsigned int _length = Length+1) : length(_length) {
+	Array(T val, unsigned int _length = Length+1) : length(_length) {
 		data = new T[length];
+		for(int it = 0; it < Length; ++it) data[it] = val;
 		data[Length] = -32767;
 	}
 
