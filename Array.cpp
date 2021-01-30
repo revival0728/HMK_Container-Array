@@ -46,17 +46,13 @@ class Array {
 	Array(std::initializer_list<T> list) {
 		auto dlit = begin(), drit = end();
 		auto lit = list.begin(), rit = list.end();
-		for(; lit != rit && dlit != drit; ++lit, dlit++)
-			*dlit = *lit;
+		for(; lit != rit && dlit != drit; ++lit, dlit++) *dlit = *lit;
 	}
 
 	T& operator[](int i) {
 		switch(i >= 0) {
-			case true:
-				return data[(i<Length?i:Length)];
-			case false:
-				return data[(Length+i>=0?Length+i:Length)];
-		}
+			case true: return data[(i<Length?i:Length)];
+			case false: return data[(Length+i>=0?Length+i:Length)]; }
 	}
 
 	unsigned int size() {
