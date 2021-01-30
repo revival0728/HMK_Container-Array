@@ -2,9 +2,9 @@
 a Safe array for C++
 
 ## Array::Array()
-(1) None
-(2) fill of value `x`
-(3) initializer_list
+(1) None  
+(2) fill of value `x`  
+(3) initializer_list  
 ## Array::~Array()
 None
 ## member function
